@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Register-Form </title>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <h1>Register </h1>
+            <p>Please fill in the form for create an account</p>
+            <label for="name">Name </label>
+            <input type="text" class="name" placeholder="Enter Name" maxlength="12" required>
+            <label for="email">Email </label>
+            <input type="text" class="email" placeholder="Enter Email" required>
+            <small class="erremail"></small>
+            <label for="password">Password </label>
+            <input type="password" class="password" placeholder="Enter Password" minlength="8" maxlength="15" required>
+            <small id="match"></small>
+            <label for="password">Enter confirm password </label>
+            <input type="password" class="confirm" placeholder="Confirm Password" minlength="8" maxlength="15" required>
+            <small id="errorpswrd"></small>
+            <label for="text">Date of Birth </label>
+            <input type="date" class="date" required>
+            <small id="date"></small>
+            <button id="register">Register</button>
+            <small class="succefully"></small>
+        </form>
+    </div>
+</body>
+</html>
